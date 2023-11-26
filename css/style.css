@@ -27,8 +27,8 @@
 
 [Color codes]
 
-# Primary Color (Buttons, Links): #EB4B1A
-# Dark Blue Color (Headings) #EB4B1A
+# Primary Color (Buttons, Links): #EB4B1A !important
+# Dark Blue Color (Headings) #EB4B1A !important
 # Mid Grey (Subheadings, Captions, Paragraphs) rgba(31, 31, 57, 0.5)
 
 */
@@ -41,7 +41,7 @@
 body {
 	font-size: 20px;
 	font-family: 'Figtree';
-	color: #EB4B1A;
+	color: #EB4B1A !important;
 }
 
 .container,
@@ -80,7 +80,7 @@ ul {
 	font-size: 2.5em;
 	font-weight: 700;
 	text-align: center;
-	color: #EB4B1A;
+	color: #EB4B1A !important;
 	margin-bottom: 18px;
 }
 
@@ -106,7 +106,7 @@ ul {
 }
 
 .app-download div {
-	border: 2px solid #EB4B1A;
+	border: 2px solid #EB4B1A !important;
 	height: 90px;
 	width: 280px;
 	display: inline-flex;
@@ -148,7 +148,7 @@ Common :: Ends
 */
 header {
 	background-color: transparent;
-	/*border-width: 1px; border-color: #EB4B1A;border-style:solid;*/
+	/*border-width: 1px; border-color: #EB4B1A !important;border-style:solid;*/
 	height: 100px;
 	margin: auto;
 	display: flex;
@@ -325,7 +325,7 @@ header.homepage-3 .nav .nav-menu .nav-button {
 
 header.homepage-3 .nav-menu .btn-sign-up a,
 header.homepage-3 .nav-menu .login {
-	border: 1px solid #EB4B1A;
+	border: 1px solid #EB4B1A !important;
 	border-radius: 40px;
 	padding: 0 12px;
 	line-height: 60px;
@@ -388,13 +388,13 @@ Header / header :: Ends
 .banner-section {
 	/*background-color: transparent;*/
 	position: relative;
-	/*background-color: #EB4B1A;border-width: 1px; border-color: #EB4B1A;border-style:solid;*/
+	/*background-color: #EB4B1A !important;border-width: 1px; border-color: #EB4B1A !important;border-style:solid;*/
 	/*border-radius: 25px;*/
 
 }
 .catch-phrase {
 	padding-top: 100px;
-	background-color: #EB4B1A;border-width: 1px; border-color: #EB4B1A;border-style:solid;
+	background-color: #EB4B1A !important;border-width: 1px; border-color: #EB4B1A !important;border-style:solid;
 	/*border-radius: 25px;*/
 	margin-bottom: 20px;
 	align-self: center;
@@ -482,7 +482,7 @@ Header / header :: Ends
 	font-size: 14px;
 	margin-top: 70px;
 	font-weight: 700;
-	/*background-color: #EB4B1A;border-width: 1px; border-color: #EB4B1A;border-style:solid;*/
+	/*background-color: #EB4B1A !important;border-width: 1px; border-color: #EB4B1A !important;border-style:solid;*/
 
 }
 
@@ -512,19 +512,19 @@ Banner Section / .banner-section :: Ends
 	justify-content: center;
 	align-items: center;
 	min-height: 730px;
-	background-color: transparent;border-width: 1px; border-color: #EB4B1A;border-style:solid;
+	background-color: transparent;border-width: 1px; border-color: #EB4B1A !important;border-style:solid;
 	position: relative;
 }
 
 .page-head h2 {
 	font-size: 100px;
 	font-weight: bolder;
-	color: #EB4B1A;
+	color: #EB4B1A !important;
 }
 
 .page-head span {
 	font-size: 20px;
-	color: #EB4B1A;
+	color: #EB4B1A !important;
 }
 
 .page-head .input-container {
@@ -626,7 +626,7 @@ Brand Section / .brand-partner :: Ends
 
 .how-it-works .working-content {
 	margin-top: 190px;
-	background-color: transparent;border-width: 1px; border-color: #EB4B1A;border-style:solid;
+	background-color: transparent;border-width: 1px; border-color: #EB4B1A !important;border-style:solid;
 	border-radius: 25px;
 	padding-top: 65px;
 	position: relative;
@@ -794,7 +794,7 @@ How it works Section / .how-it-works :: Ends
 }
 
 .features .feature-content ul li span {
-	color: #EB4B1A;
+	color: #EB4B1A !important;
 	font-weight: 700;
 	margin-left: 25px;
 }
@@ -842,7 +842,7 @@ Features Section / .features :: Ends
 }
 
 .why-jodi .why-jodi-content {
-	background-color: transparent;border-width: 1px; border-color: #EB4B1A;border-style:solid;
+	background-color: transparent;border-width: 1px; border-color: #EB4B1A !important;border-style:solid;
 	border-radius: 25px;
 	padding: 90px 130px;
 	margin-bottom: 20px;
@@ -992,7 +992,7 @@ Why Jodi Section / .why-jodi :: Ends
 
 .testimonial .testimonial-reviews .review h6 {
 	font-weight: 700;
-	color: #EB4B1A;
+	color: #EB4B1A !important;
 	text-align: center;
 	line-height: 20px;
 	font-size: 20px;
@@ -1125,7 +1125,7 @@ Testimonial Section / .testimonial :: Ends
 }
 
 .jodi-plans .plan-card {
-	background-color: transparent;border-width: 1px; border-color: #EB4B1A;border-style:solid;
+	background-color: transparent;border-width: 1px; border-color: #EB4B1A !important;border-style:solid;
 	padding: 60px 30px;
 	border-radius: 20px;
 	width: 340px;
@@ -1136,7 +1136,7 @@ Testimonial Section / .testimonial :: Ends
 .jodi-plans .plan-card .popularity {
 	font-size: 10px;
 	font-weight: 700;
-	color: #EB4B1A;
+	color: #EB4B1A !important;
 	padding: 6px 16px;
 	background-color: #D9EEFF;
 	border-radius: 15px;
@@ -1157,7 +1157,7 @@ Testimonial Section / .testimonial :: Ends
 	text-align: center;
 	font-size: 1em;
 	font-weight: 700;
-	color: #EB4B1A;
+	color: #EB4B1A !important;
 }
 
 .jodi-plans .plan-card:hover .plan-name,
@@ -1206,14 +1206,14 @@ Testimonial Section / .testimonial :: Ends
 	border: none;
 	border-radius: 20px;
 	font-size: 20px;
-	color: #EB4B1A;
+	color: #EB4B1A !important;
 	font-weight: 700;
 	margin-bottom: 60px;
 }
 
 .jodi-plans .plan-card:hover button,
 .jodi-plans .plan-card.active button {
-	background-color: transparent;border-width: 1px; border-color: #EB4B1A;border-style:solid;
+	background-color: transparent;border-width: 1px; border-color: #EB4B1A !important;border-style:solid;
 
 }
 
@@ -1253,11 +1253,11 @@ Testimonial Section / .testimonial :: Ends
 .jodi-plans .plan-tenure>span {
 	font-size: 0.750em;
 	font-weight: 700;
-	color: #EB4B1A80;
+	color: #EB4B1A !important80;
 }
 
 .jodi-plans .plan-tenure>span.active {
-	color: #EB4B1A;
+	color: #EB4B1A !important;
 }
 
 .jodi-plans .switch {
@@ -1373,7 +1373,7 @@ Jodi Plans Section / .jodi-plans :: Ends
 
 .jodi-stories .stories-card .story-card .story-content h4 {
 	font-size: 1em;
-	color: #EB4B1A;
+	color: #EB4B1A !important;
 	font-weight: 700;
 	margin-top: 5px;
 	margin-bottom: 10px;
@@ -1428,7 +1428,7 @@ Jodi Stories Section / .jodi-stories :: Ends
 .faq .qa-content .question {
 	width: 375px;
 	font-size: 1em;
-	color: #EB4B1A;
+	color: #EB4B1A !important;
 	font-weight: 700;
 
 }
@@ -1467,7 +1467,7 @@ FAQs Section / .faq :: Ends
 .try-jodi {
 	padding-top: 300px;
 	position: relative;
-	background: linear-gradient(180deg, rgba(255,255,255,1) 77%, #EB4B1A 20%);
+	background: linear-gradient(180deg, rgba(255,255,255,1) 77%, #EB4B1A !important 20%);
 }
 
 .try-jodi .try-vectors img.vector-1 {
@@ -1495,10 +1495,10 @@ FAQs Section / .faq :: Ends
 }
 
 .try-jodi .try-content {
-	background-color: transparent;border-width: 1px; border-color: #EB4B1A;border-style:solid;
+	background-color: transparent;border-width: 1px; border-color: #EB4B1A !important;border-style:solid;
 	padding: 90px 90px 100px 100px;
 	border-radius: 25px;
-	border-color: #EB4B1A;
+	border-color: #EB4B1A !important;
 }
 
 .try-jodi .try-content .section-title {
@@ -1530,7 +1530,7 @@ Try Jodi Section / .try-jodi :: Ends
 */
 .subscribe-input {
 	padding-top: 240px;
-	background-color: #EB4B1A;
+	background-color: #EB4B1A !important;
 	text-align: center;
 	position: relative;
 }
@@ -1568,11 +1568,11 @@ Try Jodi Section / .try-jodi :: Ends
 
 .subscribe-input .input-container button {
 	width: 215px;
-	background-color: transparent;border-width: 1px; border-color: #EB4B1A;border-style:solid;
+	background-color: transparent;border-width: 1px; border-color: #EB4B1A !important;border-style:solid;
 	border-radius: 20px;
 	border: none;
 	padding: 25px 75px;
-	color: #EB4B1A;
+	color: #EB4B1A !important;
 	font-weight: 700;
 	margin-left: 48px;
 	transition: 0.3s all;
@@ -1591,7 +1591,7 @@ Subscribe Section / .subscribe :: Ends
 */
 .footer {
 	padding-top: 150px;
-	background-color: #EB4B1A;
+	background-color: #EB4B1A !important;
 	color: #fff;
 	padding-bottom: 200px;
 }
@@ -1769,7 +1769,7 @@ Footer Section / .footer :: Ends
 /*}*/
 
 /*.homepage-2 .how-it-works .working-content .work-center {*/
-/*	background-color: transparent;border-width: 1px; border-color: #EB4B1A;border-style:solid;*/
+/*	background-color: transparent;border-width: 1px; border-color: #EB4B1A !important;border-style:solid;*/
 
 /*}*/
 
@@ -1841,7 +1841,7 @@ Footer Section / .footer :: Ends
 
 /*.hp-3 .banner-section::before {*/
 /*	content: '';*/
-/*	background-color: transparent;border-width: 1px; border-color: #EB4B1A;border-style:solid;*/
+/*	background-color: transparent;border-width: 1px; border-color: #EB4B1A !important;border-style:solid;*/
 /*	position: absolute;*/
 /*	width: 1110px;*/
 /*	height: 1110px;*/
@@ -1911,7 +1911,7 @@ Footer Section / .footer :: Ends
 /*	content: '';*/
 /*	width: 430px;*/
 /*	height: 430px;*/
-/*	background-color: transparent;border-width: 1px; border-color: #EB4B1A;border-style:solid;*/
+/*	background-color: transparent;border-width: 1px; border-color: #EB4B1A !important;border-style:solid;*/
 /*	border-radius: 50%;*/
 /*	position: absolute;*/
 /*	top: 50%;*/
@@ -1931,7 +1931,7 @@ Footer Section / .footer :: Ends
 
 /*.hp-3 .mobile-ss::before {*/
 /*	content: '';*/
-/*	background-color: transparent;border-width: 1px; border-color: #EB4B1A;border-style:solid;*/
+/*	background-color: transparent;border-width: 1px; border-color: #EB4B1A !important;border-style:solid;*/
 /*	position: absolute;*/
 /*	width: 1110px;*/
 /*	height: 1110px;*/
@@ -1954,7 +1954,7 @@ Footer Section / .footer :: Ends
 /*}*/
 
 /*.hp-3 .try-jodi {*/
-/*	background: linear-gradient(180deg, #fff 77%, #EB4B1A 20%);*/
+/*	background: linear-gradient(180deg, #fff 77%, #EB4B1A !important 20%);*/
 /*}*/
 /*!*------------------------------------------------------------------*/
 /*Homepage 3 :: Ends*/
@@ -2043,7 +2043,7 @@ Footer Section / .footer :: Ends
 /*}*/
 
 /*.about-focus .focus {*/
-/*	background-color: transparent;border-width: 1px; border-color: #EB4B1A;border-style:solid;*/
+/*	background-color: transparent;border-width: 1px; border-color: #EB4B1A !important;border-style:solid;*/
 /*	border-radius: 20px;*/
 /*	padding: 70px 100px;*/
 /*	padding-bottom: 190px;*/
@@ -2080,7 +2080,7 @@ Footer Section / .footer :: Ends
 
 /*.about-focus .focus-cards .focus-card h5 {*/
 /*	font-size: 20px;*/
-/*	color: #EB4B1A;*/
+/*	color: #EB4B1A !important;*/
 /*	margin-bottom: 9px;*/
 /*	font-weight: 700;*/
 /*}*/
@@ -2189,7 +2189,7 @@ Footer Section / .footer :: Ends
 /*	font-size: 20px;*/
 /*	font-weight: 700;*/
 /*	margin-top: 25px;*/
-/*	color: #EB4B1A;*/
+/*	color: #EB4B1A !important;*/
 /*	margin-bottom: 10px;*/
 /*}*/
 
@@ -2235,7 +2235,7 @@ Footer Section / .footer :: Ends
 /*}*/
 
 /*.about .try-jodi {*/
-/*	background: linear-gradient(180deg, #fff 77%, #EB4B1A 20%);*/
+/*	background: linear-gradient(180deg, #fff 77%, #EB4B1A !important 20%);*/
 /*}*/
 /*!*------------------------------------------------------------------*/
 /*About Page :: Ends*/
@@ -2254,7 +2254,7 @@ Footer Section / .footer :: Ends
 
 /*.form-box>p {*/
 /*	margin-bottom: 45px;*/
-/*	color: #EB4B1A*/
+/*	color: #EB4B1A !important*/
 /*}*/
 
 /*.form-box .contant-info {*/
@@ -2280,7 +2280,7 @@ Footer Section / .footer :: Ends
 /*	text-align: center;*/
 /*	line-height: 28px;*/
 /*	margin-top: 20px;*/
-/*	color: #EB4B1A;*/
+/*	color: #EB4B1A !important;*/
 /*}*/
 
 /*.form-box .contant-info p a {*/
@@ -2409,7 +2409,7 @@ Footer Section / .footer :: Ends
 /*.map .map-address h6 {*/
 /*	font-size: 20px;*/
 /*	font-weight: 700;*/
-/*	color: #EB4B1A;*/
+/*	color: #EB4B1A !important;*/
 /*}*/
 
 /*.map .map-img {*/
@@ -2417,7 +2417,7 @@ Footer Section / .footer :: Ends
 /*}*/
 
 /*.contact-sec .try-jodi {*/
-/*	background: linear-gradient(180deg, #fff 77%, #EB4B1A 20%);*/
+/*	background: linear-gradient(180deg, #fff 77%, #EB4B1A !important 20%);*/
 /*}*/
 /*!*------------------------------------------------------------------*/
 /*Contact Page :: Ends*/
@@ -2463,7 +2463,7 @@ Footer Section / .footer :: Ends
 /*	padding-top: 40px;*/
 /*	display: flex;*/
 /*	gap: 18px;*/
-/*	color: #EB4B1A;*/
+/*	color: #EB4B1A !important;*/
 /*}*/
 
 /*.blog-features .blog-by .blog-writer-img img {*/
@@ -2520,7 +2520,7 @@ Footer Section / .footer :: Ends
 /*}*/
 
 /*.jodi-blogs .blog-cards .blog-card .blog-content .blog-name {*/
-/*	color: #EB4B1A;*/
+/*	color: #EB4B1A !important;*/
 /*	font-size: 20px;*/
 /*	font-weight: 700;*/
 /*	margin-bottom: 10px;*/
@@ -2550,12 +2550,12 @@ Footer Section / .footer :: Ends
 /*}*/
 
 /*.jodi-blogs .previous-post-btn button {*/
-/*	background-color: transparent;border-width: 1px; border-color: #EB4B1A;border-style:solid;*/
+/*	background-color: transparent;border-width: 1px; border-color: #EB4B1A !important;border-style:solid;*/
 /*	border: none;*/
 /*	border-radius: 20px;*/
 /*	font-size: 20px;*/
 /*	font-weight: 700;*/
-/*	color: #EB4B1A;*/
+/*	color: #EB4B1A !important;*/
 /*	padding: 0 20px;*/
 /*	line-height: 80px;*/
 /*	transition: 0.5s all;*/
@@ -2568,7 +2568,7 @@ Footer Section / .footer :: Ends
 /*}*/
 
 /*.blogs .try-jodi {*/
-/*	background: linear-gradient(180deg, #fff 77%, #EB4B1A 20%);*/
+/*	background: linear-gradient(180deg, #fff 77%, #EB4B1A !important 20%);*/
 /*}*/
 /*!*------------------------------------------------------------------*/
 /*Blog Page / .blogs :: Ends*/
@@ -2601,7 +2601,7 @@ Footer Section / .footer :: Ends
 /*}*/
 
 /*.blog-details .page-head div.blog-writer .name {*/
-/*	color: #EB4B1A*/
+/*	color: #EB4B1A !important*/
 /*}*/
 
 /*.blog-banner {*/
@@ -2656,7 +2656,7 @@ Footer Section / .footer :: Ends
 /*	font-weight: 400;*/
 /*	line-height: 70px;*/
 /*	padding: 73px 84px;*/
-/*	background-color: transparent;border-width: 1px; border-color: #EB4B1A;border-style:solid;*/
+/*	background-color: transparent;border-width: 1px; border-color: #EB4B1A !important;border-style:solid;*/
 /*	border-radius: 20px;*/
 /*	text-align: center;*/
 /*	margin-bottom: 25px;*/
@@ -2723,7 +2723,7 @@ Footer Section / .footer :: Ends
 
 /*.blog-comments .existing-comment .comment-info div {*/
 /*	font-size: 20px;*/
-/*	color: #EB4B1A;*/
+/*	color: #EB4B1A !important;*/
 /*	font-weight: 700;*/
 /*}*/
 
@@ -2742,7 +2742,7 @@ Footer Section / .footer :: Ends
 /*}*/
 
 /*.blog-details .try-jodi {*/
-/*	background: linear-gradient(180deg, #fff 77%, #EB4B1A 20%);*/
+/*	background: linear-gradient(180deg, #fff 77%, #EB4B1A !important 20%);*/
 /*}*/
 /*!*------------------------------------------------------------------*/
 /*Blog Details / .blog-details :: Ends*/
@@ -2806,7 +2806,7 @@ Footer Section / .footer :: Ends
 /*}*/
 
 /*.modal .input-container label {*/
-/*	color: #EB4B1A;*/
+/*	color: #EB4B1A !important;*/
 /*	display: flex;*/
 /*	align-items: center;*/
 /*	justify-content: space-between;*/
@@ -2821,7 +2821,7 @@ Footer Section / .footer :: Ends
 /*	border-radius: 20px;*/
 /*	font-weight: bold;*/
 /*	padding: 12px 20px;*/
-/*	background-color: transparent;border-width: 1px; border-color: #EB4B1A;border-style:solid;*/
+/*	background-color: transparent;border-width: 1px; border-color: #EB4B1A !important;border-style:solid;*/
 /*	border: none;*/
 /*}*/
 
@@ -2866,7 +2866,7 @@ Footer Section / .footer :: Ends
 /*}*/
 
 /*.modal .form-check .form-check-label {*/
-/*	color: #EB4B1A;*/
+/*	color: #EB4B1A !important;*/
 /*	font-size: 0.8em;*/
 /*}*/
 
@@ -2875,7 +2875,7 @@ Footer Section / .footer :: Ends
 /*}*/
 
 /*.another-way {*/
-/*	color: #EB4B1A;*/
+/*	color: #EB4B1A !important;*/
 /*	margin-top: 60px;*/
 /*	text-align: center;*/
 /*	margin-bottom: 50px;*/
@@ -2904,7 +2904,7 @@ Footer Section / .footer :: Ends
 /*}*/
 
 /*.modal .form-container>p {*/
-/*	color: #EB4B1A;*/
+/*	color: #EB4B1A !important;*/
 /*	text-align: center;*/
 /*}*/
 
